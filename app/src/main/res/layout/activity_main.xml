@@ -8,29 +8,39 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvOne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Snake Of"
-        android:textColor="#333333"
-        android:fontFamily="@font/greycliffcf_regular"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="30dp"/>
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/tvTwo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:text="Myanmar"
-        android:textColor="#333333"
-        android:fontFamily="@font/greycliffcf_regular"
-        android:textSize="25sp"
-        android:textStyle="bold"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Snake Of "
+                    android:textColor="#333333"
+                    android:fontFamily="@font/greycliffcf_regular"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"/>
+            <TextView
+                    android:id="@+id/tvTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Myanmar"
+                    android:textColor="#333333"
+                    android:fontFamily="@font/greycliffcf_regular"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                android:layout_below="@id/tvOne"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"/>
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -51,6 +61,7 @@
                 android:layout_margin="10dp">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cvSnakeID"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     app:cardElevation="5dp"
@@ -87,7 +98,7 @@
                             android:layout_centerVertical="true"
                             android:scaleType="centerInside"
                             android:layout_alignParentRight="true"
-                            android:src="@drawable/anaconda"
+                            android:src="@drawable/snake_id"
                             android:rotationY="180"/>
                     </RelativeLayout>
 
@@ -161,6 +172,7 @@
                 android:layout_margin="10dp">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cvFirstAid"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     app:cardElevation="5dp"
@@ -204,11 +216,6 @@
 
                 </androidx.cardview.widget.CardView>
 
-
-
-
-
-
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -217,6 +224,7 @@
                 android:layout_margin="10dp">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cvHospital"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     app:cardElevation="5dp"

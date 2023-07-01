@@ -2,4 +2,11 @@
     <string name="app_name">Snake Of Myanmar</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="မြွေကိုက်ခံရရင်ဘာလုပ်မလဲ">
+         1. ကိုက်ခံရတဲ့နေရာမှာ ပြင်းပြင်းထန်ထန် နာမယ်\n2. ရောင်မယ်၊ နီရဲလာမယ်၊ အညိုကွက်တွေ ဖြစ်လာမယ်၊ ကိုက်ခံရတဲ့နေရာကနေ တဖြည်းဖြည်း ကျယ်ပြန့်လာမယ်\n3. ပျို့မယ်၊ အော့အန်မယ်
+    </string>
+
+    <string name="yangon1">
+        Q4HX+MH5, ဗိုလ်ချုပ်လမ်း, ရန်ကုန်
+    </string>
 </resources>
