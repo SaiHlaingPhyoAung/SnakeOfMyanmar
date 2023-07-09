@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E6FFFFF7"
+    android:background="#FFFFFF"
     android:orientation="vertical"
     tools:context=".FirstAid">
 
@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="First Aid"
-            android:textColor="@color/black"
+            android:textColor="#333333"
             android:fontFamily="@font/greycliffcf_regular"
             android:layout_gravity="center_horizontal"
             android:textSize="20sp"/>
@@ -31,6 +31,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
+        android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

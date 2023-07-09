@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#E6FFFFF7"
+    android:background="#FFFFFF"
     tools:context=".Hospitals">
 
     <androidx.appcompat.widget.Toolbar
@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hospitals"
-            android:textColor="@color/black"
+            android:textColor="#333333"
             android:fontFamily="@font/greycliffcf_regular"
             android:layout_gravity="center_horizontal"
             android:textSize="20sp"/>

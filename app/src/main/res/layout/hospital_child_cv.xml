@@ -9,7 +9,7 @@
 
         <RelativeLayout
             android:id="@+id/relativeLayout"
-            android:background="#DDDDDD"
+            android:background="#f3f3f3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="start"
-                android:textColor="#03A9F4"
+                android:textColor="#3366CC"
                 android:layout_below="@+id/tvTitle"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"

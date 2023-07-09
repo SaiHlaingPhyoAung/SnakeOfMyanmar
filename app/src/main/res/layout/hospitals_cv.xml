@@ -5,13 +5,14 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_margin="18dp"
+    android:background="#606060"
     app:cardCornerRadius="15dp"
     app:cardElevation="8dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#DDDDDD">
+            android:background="#f3f3f3">
 
             <TextView
                 android:id="@+id/textView"
@@ -33,15 +34,5 @@
                 android:layout_margin="3dp"
                 android:layout_marginBottom="10dp"/>
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_alignParentRight="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="15dp"
-                android:layout_marginRight="25dp"
-                android:scaleType="fitXY"
-                android:src="@drawable/arrow_down" />
-        </RelativeLayout>
+           </RelativeLayout>
 </androidx.cardview.widget.CardView>

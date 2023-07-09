@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
 
-class snakeID : AppCompatActivity() {
+public class snakeID : AppCompatActivity() {
 
     private lateinit var recyclewView : RecyclerView
 
@@ -26,6 +26,7 @@ class snakeID : AppCompatActivity() {
 
         viewPager.adapter = fragmentAdapter
         tabs.setupWithViewPager(viewPager)
+
 
         ivBack.setOnClickListener {
             finish()

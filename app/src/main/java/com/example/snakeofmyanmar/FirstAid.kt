@@ -24,8 +24,7 @@ class FirstAid : AppCompatActivity() {
         }
 
         var FirstAidList = listOf(
-            FirstAidData("မြွေကိုက်ခံရရင်ဘာလုပ်မလဲ?" , R.string.`မြွေကိုက်ခံရရင်ဘာလုပ်မလဲ`)
-
+            FirstAidData("မြွေကိုက်ခံရရင်လျှင်ဘာလက္ခဏာတွေပြမလဲ?" , R.string.`မြွေကိုက်ခံရရင်လျှင်ဘာလက္ခဏာတွေပြမလဲ`)
         )
 
         var FirstAidadapter = FirstAidRecyclerViewAdapter(FirstAidList)

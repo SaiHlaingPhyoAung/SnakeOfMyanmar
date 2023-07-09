@@ -17,7 +17,6 @@ class Hospital_RecyclerViewAdapter(var HospitalLocation : List<HospitalData>)
        inner class HospitalViewHolder(itemVeiw : View) : RecyclerView.ViewHolder(itemVeiw){
             var textView = itemVeiw.findViewById<TextView>(R.id.textView)
            var recyclerView = itemVeiw.findViewById<RecyclerView>(R.id.parentRecyclerView)
-           var imageView = itemVeiw.findViewById<ImageView>(R.id.imageView)
            var relativeLayout = itemView.findViewById<RelativeLayout>(R.id.relativeLayout)
         }
 
@@ -36,7 +35,6 @@ class Hospital_RecyclerViewAdapter(var HospitalLocation : List<HospitalData>)
     override fun onBindViewHolder(holder: HospitalViewHolder, position: Int) {
         val parentItem = HospitalLocation[position]
         holder.textView.text = parentItem.name
-        holder.imageView.setImageResource(HospitalLocation[position].image)
 
         holder.recyclerView.setHasFixedSize(true)
         holder.recyclerView.layoutManager = LinearLayoutManager(holder.itemView.context , LinearLayoutManager.VERTICAL , false)
@@ -45,13 +43,12 @@ class Hospital_RecyclerViewAdapter(var HospitalLocation : List<HospitalData>)
         val adapter = Hospital_Child_RecyclerView(parentItem.childItemList)
         holder.recyclerView.adapter = adapter
 
-        holder.imageView.setOnClickListener {
+        holder.textView.setOnClickListener {
             if (holder.recyclerView.visibility == View.GONE){
                 holder.recyclerView.visibility = View.VISIBLE
-                holder.imageView.setImageResource(R.drawable.arrow_up)
             } else {
                 holder.recyclerView.visibility = View.GONE
-                holder.imageView.setImageResource(R.drawable.arrow_down)
+
             }
         }
     }

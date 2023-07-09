@@ -25,7 +25,7 @@ class Hospitals : AppCompatActivity() {
 
 
         val yangonItem = listOf<HospitalChildData>(
-            HospitalChildData("ရန်ကုန်ပြည်သူ့ဆေးရုံ" , "01 256 112" , "Yangon General Hospital, Bo Gyoke Road, Yangon"),
+            HospitalChildData("ရန်ကုန်ပြည်သူ့ဆေးရုံ" , "01 256 112" , "Yangon General Hospital"),
             HospitalChildData("သုခကမ္ဘာဆေးရုံ" , "091233123" , "R4MJ+577 San Yeik Nyein, 6th Street, ရန်ကုန်"),
             HospitalChildData("ပါရမီအထွေထွေရောဂါကုဆေးရုံ" , "091233123" , "No-60, G-1, New Parami Road, Township, ရန်ကုန်"),
             HospitalChildData("ဝိတိုရိယဆေးရုံ" , "091233123" , "68 တော်ဝင်လမ်း, ရန်ကုန်"),
@@ -40,7 +40,7 @@ class Hospitals : AppCompatActivity() {
 
 
         val parentList = listOf<HospitalData>(
-            HospitalData("Yangon" , R.drawable.arrow_down , yangonItem ),
+            HospitalData("Yangon"  , yangonItem ),
         )
 
         recyclerView.setHasFixedSize(true)
@@ -51,6 +51,4 @@ class Hospitals : AppCompatActivity() {
 
 
     }
-    private fun getPhone() {}
-
 }

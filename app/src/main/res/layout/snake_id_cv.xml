@@ -11,7 +11,7 @@
             android:layout_width="match_parent"
             app:cardCornerRadius="20dp"
             app:cardElevation="5dp"
-            android:layout_height="190dp">
+            android:layout_height="220dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -22,7 +22,8 @@
                     android:layout_width="match_parent"
                     android:scaleType="centerCrop"
                     android:src="@drawable/saba_own"
-                    android:layout_height="match_parent"/>
+                    android:adjustViewBounds="true"
+                    android:layout_height="220dp"/>
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
@@ -30,6 +31,7 @@
                     android:fontFamily="monospace"
                     android:layout_marginLeft="10dp"
                     android:layout_marginBottom="10dp"
+                    android:paddingBottom="3dp"
                     android:layout_alignParentBottom="true"
                     android:textSize="20sp"
                     android:textStyle="bold"
