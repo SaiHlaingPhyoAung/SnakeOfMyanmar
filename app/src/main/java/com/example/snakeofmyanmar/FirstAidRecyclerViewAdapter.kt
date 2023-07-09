@@ -1,14 +1,11 @@
 package com.example.snakeofmyanmar
 
-import android.opengl.Visibility
-import android.text.Layout
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
-import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.snakeofmyanmar.model.FirstAidData
 
 class FirstAidRecyclerViewAdapter(var FirstAidList : List<FirstAidData>)
     : RecyclerView.Adapter<FirstAidRecyclerViewAdapter.FirstAidViewHolder>(){

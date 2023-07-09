@@ -5,6 +5,9 @@ import android.os.Bundle
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.ViewPager
+import com.example.snakeofmyanmar.view.normalSnake
+import com.example.snakeofmyanmar.view.poisonousSnake
+import com.example.snakeofmyanmar.view.venomousSnake
 import com.google.android.material.tabs.TabLayout
 
 public class snakeID : AppCompatActivity() {

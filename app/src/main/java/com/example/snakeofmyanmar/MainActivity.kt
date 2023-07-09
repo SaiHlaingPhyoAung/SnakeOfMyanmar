@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.RelativeLayout
 import androidx.cardview.widget.CardView
+import com.example.snakeofmyanmar.view.FirstAid
+import com.example.snakeofmyanmar.view.Hospitals
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

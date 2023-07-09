@@ -45,5 +45,4 @@ dependencies {
 
     implementation 'com.github.denzcoskun:ImageSlideshow:0.1.2'
 
-    implementation 'androidx.fragment:fragment-ktx:1.6.0'
 }

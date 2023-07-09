@@ -1,15 +1,13 @@
 package com.example.snakeofmyanmar
 
-import android.util.Log.d
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.RelativeLayout
 import android.widget.TextView
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.snakeofmyanmar.model.HospitalData
 
 class Hospital_RecyclerViewAdapter(var HospitalLocation : List<HospitalData>)
     : RecyclerView.Adapter<Hospital_RecyclerViewAdapter.HospitalViewHolder>(){

@@ -1,4 +1,4 @@
-package com.example.snakeofmyanmar
+package com.example.snakeofmyanmar.model
 
 data class FirstAidData(val title: String, val desc: Int) {
 }

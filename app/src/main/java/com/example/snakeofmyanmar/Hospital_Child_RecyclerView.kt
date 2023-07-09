@@ -1,14 +1,13 @@
 package com.example.snakeofmyanmar
 
 import android.content.Intent
-import android.media.Image
 import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.snakeofmyanmar.model.HospitalChildData
 
 class Hospital_Child_RecyclerView(var dataList : List<HospitalChildData>)
     : RecyclerView.Adapter<Hospital_Child_RecyclerView.ViewHolder>(){

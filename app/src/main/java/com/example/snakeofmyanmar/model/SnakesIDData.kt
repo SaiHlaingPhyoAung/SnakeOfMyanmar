@@ -1,4 +1,4 @@
-package com.example.snakeofmyanmar
+package com.example.snakeofmyanmar.model
 
 import java.io.Serializable
 

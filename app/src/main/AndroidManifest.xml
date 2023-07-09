@@ -16,10 +16,10 @@
             android:name=".snake_id_cv"
             android:exported="false" />
         <activity
-            android:name=".FirstAid"
+            android:name=".view.FirstAid"
             android:exported="false" />
         <activity
-            android:name=".Hospitals"
+            android:name=".view.Hospitals"
             android:exported="false" />
         <activity
             android:name=".snakeID"

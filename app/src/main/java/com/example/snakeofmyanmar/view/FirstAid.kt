@@ -1,16 +1,17 @@
-package com.example.snakeofmyanmar
+package com.example.snakeofmyanmar.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.snakeofmyanmar.FirstAidRecyclerViewAdapter
+import com.example.snakeofmyanmar.R
+import com.example.snakeofmyanmar.model.FirstAidDataProvider
 
 class FirstAid : AppCompatActivity() {
 
     private lateinit var recyclerView : RecyclerView
-
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,9 +24,7 @@ class FirstAid : AppCompatActivity() {
             finish()
         }
 
-        var FirstAidList = listOf(
-            FirstAidData("မြွေကိုက်ခံရရင်လျှင်ဘာလက္ခဏာတွေပြမလဲ?" , R.string.`မြွေကိုက်ခံရရင်လျှင်ဘာလက္ခဏာတွေပြမလဲ`)
-        )
+        var FirstAidList = FirstAidDataProvider().getFirstAidData()
 
         var FirstAidadapter = FirstAidRecyclerViewAdapter(FirstAidList)
         recyclerView.adapter = FirstAidadapter
